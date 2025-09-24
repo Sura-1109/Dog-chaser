@@ -3,9 +3,9 @@ import time
 import os
 import numpy as np
 
-from util.sound_player import SoundPlayer
+from utilities.SoundPlayer import SoundPlayer
 
-BASE_DIR = os.path.dirname(os.path.abspath(___file___))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 CFG_PATH = os.path.join(MODELS_DIR, "yolov4-tiny.cfg")
 WEIGHTS_PATH = os.path.join(MODELS_DIR, "yolov4-tiny.wieghts")
